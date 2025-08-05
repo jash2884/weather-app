@@ -1,9 +1,8 @@
-// src/services/weatherService.js
-
 // --- API KEYS ---
-// IMPORTANT: PASTE YOUR API KEYS HERE
-const OPENWEATHER_API_KEY = "eafe85d40a100f8bf966deb9cf9b6cd9";
-const UNSPLASH_ACCESS_KEY = "uQ8P7tAHW7djnPO0rTTRxb4bLZPoGJt2Fj4T9DKThBc";
+// Read keys from environment variables provided by Vercel
+const OPENWEATHER_API_KEY = import.meta.env.eafe85d40a100f8bf966deb9cf9b6cd9;
+const UNSPLASH_ACCESS_KEY = import.meta.env
+  .uQ8P7tAHW7djnPO0rTTRxb4bLZPoGJt2Fj4T9DKThBc;
 
 // --- API ENDPOINTS ---
 const WEATHER_API_URL = `https://api.openweathermap.org/data/2.5/weather`;
