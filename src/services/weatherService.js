@@ -1,8 +1,7 @@
 // --- API KEYS ---
 // Read keys from environment variables provided by Vercel
-const OPENWEATHER_API_KEY = import.meta.env.eafe85d40a100f8bf966deb9cf9b6cd9;
-const UNSPLASH_ACCESS_KEY = import.meta.env
-  .uQ8P7tAHW7djnPO0rTTRxb4bLZPoGJt2Fj4T9DKThBc;
+const OPENWEATHER_API_KEY = import.meta.env.VITE_OPENWEATHER_API_KEY;
+const UNSPLASH_ACCESS_KEY = import.meta.env.VITE_UNSPLASH_ACCESS_KEY;
 
 // --- API ENDPOINTS ---
 const WEATHER_API_URL = `https://api.openweathermap.org/data/2.5/weather`;
